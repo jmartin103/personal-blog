@@ -3,7 +3,8 @@ import React from 'react';
 const About = () => {
     return (
         <>
-            <p>I'm a programmer</p>
+            <h1>About Me</h1>
+            <p>I am a professional Web developer who enjoys coding</p>
         </>
     )
 }

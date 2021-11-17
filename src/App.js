@@ -8,7 +8,9 @@ import {
 
 import Home from './components/Home';
 import About from './components/About';
+import Hobbies from './components/Hobbies';
 import Navbar from './components/Navbar';
+import NotFound from './components/NotFound';
 
 function App() {
   return (
@@ -20,7 +22,8 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
-          <Redirect to="/" />
+          <Route path="/hobbies" component={Hobbies} />
+          <Route path="*" component={NotFound} />
         </Switch>
       </Router>
     </div>

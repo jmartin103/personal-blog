@@ -2,13 +2,16 @@
   background-color: lightblue;
 }
 
+hr {
+  color: black;
+}
+
 .App {
   text-align: center;
 }
 
 #welcome {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-decoration: powderblue;
 }
 
 .navbar {
